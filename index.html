@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Energía Biofotovoltaica — Celdas Algales</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">BioFV·Lab</div>
+    <div class="nav-links">
+      <a href="#intro">Intro</a>
+      <a href="#ciencia">Ciencia</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#resultados">Resultados</a>
+      <button class="lang-btn" id="langBtn">EN</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag" data-es="Proyecto de Ciencias · 2023" data-en="Science Project · 2023">Proyecto de Ciencias
+        · 2023</div>
+      <h1 class="hero-title"><span data-es="Energía" data-en="Living">Energía</span> <em data-es="viva"
+          data-en="energy">viva</em><br><span data-es="de las algas" data-en="from algae">de las algas</span></h1>
+      <p class="hero-sub"
+        data-es="Generador biofotovoltaico por acumulación de bioceldas algales — renovable, verde y de escala humana."
+        data-en="Biophotovoltaic generator based on accumulated algal biocells — renewable, green, and human-scale.">
+        Generador biofotovoltaico por acumulación de bioceldas algales — renovable, verde y de escala humana.</p>
+      <a href="#intro" class="hero-cta" data-es="Ver proyecto ↓" data-en="View project ↓">Ver proyecto ↓</a>
+    </div>
+    <div class="hero-visual">
+      <div class="cell-grid">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="energy-bar"></div>
+      <p class="energy-label" data-es="14 bioceldas en serie · ~7 voltios" data-en="14 biocells in series · ~7 volts">14
+        bioceldas en serie · ~7 voltios</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- INTRO -->
+  <section id="intro">
+    <div class="intro-grid">
+
+      <div class="intro-left reveal">
+        <p class="eyebrow" data-es="Punto de partida" data-en="Starting point">Punto de partida</p>
+        <h2 class="section-title" data-es="¿Es posible obtener electricidad de las plantas?"
+          data-en="Can we get electricity from plants?">¿Es posible obtener electricidad de las plantas?</h2>
+        <p class="body-text">
+          <span
+            data-es="Luego de búsquedas sobre energías limpias llegamos a la producción biofotovoltaica: electricidad como producto directo de la fotosíntesis. Cada planta en maceta genera"
+            data-en="After researching clean energy sources, we arrived at biophotovoltaic production: electricity as a direct product of photosynthesis. Each potted plant generates">Luego
+            de búsquedas sobre energías limpias llegamos a la producción biofotovoltaica: electricidad como producto
+            directo de la fotosíntesis. Cada planta en maceta genera</span>
+          <strong class="neon-text"> 0,6–0,7 v</strong>.
+          <span data-es="Eso nos llevó a dos preguntas clave:" data-en="That led us to two key questions:">Eso nos llevó
+            a dos preguntas clave:</span>
+        </p>
+        <div class="q-pair">
+          <div class="q-item">
+            <span class="q-mark">?</span>
+            <p data-es="¿Realmente es posible obtener energía eléctrica a través de las plantas?"
+              data-en="Is it really possible to obtain electrical energy through plants?">¿Realmente es posible obtener
+              energía eléctrica a través de las plantas?</p>
+          </div>
+          <div class="q-item">
+            <span class="q-mark">?</span>
+            <p data-es="¿Es viable y aplicable a nuestra realidad un proyecto de estas características?"
+              data-en="Is a project like this viable and applicable to our reality?">¿Es viable y aplicable a nuestra
+              realidad un proyecto de estas características?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="intro-right reveal">
+        <p class="eyebrow" data-es="Nuestra propuesta" data-en="Our proposal">Nuestra propuesta</p>
+        <p class="body-text" style="margin-bottom:1.2rem;"
+          data-es="Un generador biofotovoltaico por acumulación de bioceldas algales. Inspirado en paneles solares pero con enfoque humano. Las algas son ideales: no requieren cuidados, solo luz."
+          data-en="A biophotovoltaic generator based on accumulated algal biocells. Inspired by solar panels but with a human focus. Algae are ideal: they need no special care, only light.">
+          Un generador biofotovoltaico por acumulación de bioceldas algales. Inspirado en paneles solares pero con
+          enfoque humano. Las algas son ideales: no requieren cuidados, solo luz.</p>
+        <div class="stat-stack">
+          <div class="stat-item">
+            <span class="stat-num">🌿</span>
+            <p class="stat-desc"
+              data-es="Electrones libres como subproducto de la fotosíntesis, capturables directamente."
+              data-en="Free electrons as a byproduct of photosynthesis, directly capturable.">Electrones libres como
+              subproducto de la fotosíntesis, capturables directamente.</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">⚡</span>
+            <p class="stat-desc" data-es="Sin combustión ni emisiones — 100% metabolismo celular de organismos vivos."
+              data-en="No combustion, no emissions — 100% cellular metabolism of living organisms.">Sin combustión ni
+              emisiones — 100% metabolismo celular de organismos vivos.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CIENCIA + PROCESO -->
+  <section id="ciencia">
+    <div class="science-header reveal">
+      <p class="eyebrow" data-es="Cómo funciona · Marco teórico" data-en="How it works · Theoretical framework">Cómo
+        funciona · Marco teórico</p>
+      <h2 class="section-title"><span data-es="Del fotón" data-en="From photon">Del fotón</span><em class="neon"
+          data-es=" al electrodo" data-en=" to electrode"> al electrodo</em></h2>
+    </div>
+
+    <div class="process-steps reveal">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-label" data-es="Fotosíntesis" data-en="Photosynthesis">Fotosíntesis</div>
+        <p class="step-desc" data-es="Las algas metabolizan CO₂ y agua. Los productos excedentes se liberan al medio."
+          data-en="Algae metabolize CO₂ and water. Surplus products are released into the medium.">Las algas metabolizan
+          CO₂ y agua. Los productos excedentes se liberan al medio.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-label" data-es="Electrones libres" data-en="Free electrons">Electrones libres</div>
+        <p class="step-desc" data-es="Acción bacteriana genera protones y electrones libres en el medio."
+          data-en="Bacterial action generates free protons and electrons in the medium.">Acción bacteriana genera
+          protones y electrones libres en el medio.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-label" data-es="Captura" data-en="Capture">Captura</div>
+        <p class="step-desc" data-es="Ánodo y cátodo captan las cargas, creando diferencia de potencial."
+          data-en="Anode and cathode capture the charges, creating a potential difference.">Ánodo y cátodo captan las
+          cargas, creando diferencia de potencial.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-label" data-es="Circuito" data-en="Circuit">Circuito</div>
+        <p class="step-desc" data-es="Cada botella es una celda. Serie = más voltaje. Paralelo = más amperaje."
+          data-en="Each bottle is a cell. Series = more voltage. Parallel = more amperage.">Cada botella es una celda.
+          Serie = más voltaje. Paralelo = más amperaje.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-label" data-es="Uso" data-en="Output">Uso</div>
+        <p class="step-desc" data-es="La energía acumulada alimenta LEDs o puertos USB de bajo consumo."
+          data-en="The accumulated energy powers LEDs or low-consumption USB ports.">La energía acumulada alimenta LEDs
+          o puertos USB de bajo consumo.</p>
+      </div>
+    </div>
+
+    <div class="science-grid reveal">
+      <div class="science-block">
+        <h4 class="science-title" data-es="Fotosíntesis oxigénica" data-en="Oxygenic photosynthesis">Fotosíntesis
+          oxigénica</h4>
+        <p class="science-text"
+          data-es="Las algas usan clorofila para absorber luz y producen O₂ e hidratos de carbono — igual que las plantas terrestres."
+          data-en="Algae use chlorophyll to absorb light and produce O₂ and carbohydrates — just like terrestrial plants.">
+          Las algas usan clorofila para absorber luz y producen O₂ e hidratos de carbono — igual que las plantas
+          terrestres.</p>
+      </div>
+      <div class="science-block">
+        <h4 class="science-title" data-es="Material del ánodo" data-en="Anode material">Material del ánodo</h4>
+        <p class="science-text"
+          data-es="El electrodo es clave. Buscamos uno buen conductor, barato y de fácil acceso. Reto aún en estudio."
+          data-en="The electrode is key. We need one that is a good conductor, cheap, and easily accessible. Still under study.">
+          El electrodo es clave. Buscamos uno buen conductor, barato y de fácil acceso. Reto aún en estudio.</p>
+      </div>
+      <div class="science-block">
+        <h4 class="science-title" data-es="Volumen vs. cantidad" data-en="Volume vs. quantity">Volumen vs. cantidad</h4>
+        <p class="science-text"
+          data-es="El tamaño de la celda no importa — sí importa la cantidad de algas. Más algas, más electrones."
+          data-en="Cell size doesn't matter — the quantity of algae does. More algae, more electrons.">El tamaño de la
+          celda no importa — sí importa la cantidad de algas. Más algas, más electrones.</p>
+      </div>
+      <div class="science-block">
+        <h4 class="science-title" data-es="Circuitos" data-en="Circuits">Circuitos</h4>
+        <p class="science-text"
+          data-es="Serie para ↑ voltaje, paralelo para ↑ amperaje, mixto para optimizar ambos según el uso."
+          data-en="Series for ↑ voltage, parallel for ↑ amperage, mixed to optimize both depending on use.">Serie para ↑
+          voltaje, paralelo para ↑ amperaje, mixto para optimizar ambos según el uso.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- RESULTADOS -->
+  <section id="resultados">
+    <div class="results-header reveal">
+      <p class="eyebrow" data-es="Prototipo 2023" data-en="2023 Prototype">Prototipo 2023</p>
+      <h2 class="section-title"><span data-es="Resultados" data-en="Results">Resultados</span><em class="neon"
+          data-es=" y retos" data-en=" and challenges"> y retos</em></h2>
+    </div>
+
+    <div class="results-row reveal">
+      <div class="results-nums">
+        <div class="result-main">
+          <span class="result-num">14</span>
+          <span class="result-unit" data-es="frascos&#10;100 ml" data-en="bottles&#10;100 ml">frascos<br>100 ml</span>
+        </div>
+        <div class="result-main">
+          <span class="result-num">~7</span>
+          <span class="result-unit" data-es="voltios&#10;en serie" data-en="volts&#10;in series">voltios<br>en
+            serie</span>
+        </div>
+        <div class="result-main">
+          <span class="result-num">3</span>
+          <span class="result-unit" data-es="meses&#10;cultivo" data-en="months&#10;culture">meses<br>cultivo</span>
+        </div>
+      </div>
+
+      <div class="challenges">
+        <p class="eyebrow" style="margin-bottom:1rem;" data-es="Retos pendientes" data-en="Pending challenges">Retos
+          pendientes</p>
+        <div class="challenge-list">
+          <div class="challenge-item"><span class="challenge-dot"></span>
+            <p data-es="Estabilizar el voltaje — la oscilación puede quemar LEDs o puertos USB."
+              data-en="Stabilize the voltage — fluctuations can damage LEDs or USB ports.">Estabilizar el voltaje — la
+              oscilación puede quemar LEDs o puertos USB.</p>
+          </div>
+          <div class="challenge-item"><span class="challenge-dot"></span>
+            <p data-es="Optimizar el circuito para mejorar el funcionamiento general."
+              data-en="Optimize the circuit to improve overall performance.">Optimizar el circuito para mejorar el
+              funcionamiento general.</p>
+          </div>
+          <div class="challenge-item"><span class="challenge-dot"></span>
+            <p data-es="Incrementar el amperaje para dispositivos de mayor consumo."
+              data-en="Increase amperage to power higher-consumption devices.">Incrementar el amperaje para dispositivos
+              de mayor consumo.</p>
+          </div>
+          <div class="challenge-item"><span class="challenge-dot"></span>
+            <p data-es="Definir el ánodo ideal: conductor, barato y accesible."
+              data-en="Define the ideal anode: conductive, cheap, and accessible.">Definir el ánodo ideal: conductor,
+              barato y accesible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">BioFV·Lab</div>
+    <p class="footer-sub" data-es="Energía biofotovoltaica · Proyecto de Ciencias 2023 · Generación verde"
+      data-en="Biophotovoltaic energy · Science Project 2023 · Green generation">Energía biofotovoltaica · Proyecto de
+      Ciencias 2023 · Generación verde</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
